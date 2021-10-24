@@ -9,3 +9,51 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+/*CSS FLEX LAYOUT*/
+
+ul{
+    text-align: right;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    padding-right: 10px;
+}
+
+header .container{
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+section.overview-hero{
+    background-color:blue;
+}
+
+
+.overview-hero-text > h2{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-hero-text > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-hero img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+}
+
