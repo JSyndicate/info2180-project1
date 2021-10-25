@@ -168,6 +168,12 @@ section.overview-hero{
     background-color: #5A67D8;
 }
 
+input{
+    float:left;
+
+    padding-left: 50px;
+}
+
 footer .container{
     background-color: #4A5568;
     padding-top: 10px;
